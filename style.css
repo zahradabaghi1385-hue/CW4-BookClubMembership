@@ -10,10 +10,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
+}
+
+.card hr {
+    border: none;
+    height: 2px;
+    background-color: #E6F0EA;
 }
 
 .hero,
-.page,
 .card {
     display: flex;
     flex-direction: column;
@@ -32,12 +38,8 @@
     padding-bottom: 0;
 }
 
-.page {
-    padding-top: 16px;
-}
-
 .card {
-    border: 2px solid #E6F0EA;
+    border: 3px solid #E6F0EA;
 }
 
 .club-button {
@@ -79,12 +81,63 @@
 #weekly-schedule td {
     padding: 15px;
     text-align: right;
-    border:  1px solid #b1b3b2;
+    border: 1px solid #E6F0EA;
     border-color: #b1b3b2;
-  
+
 }
 
 #weekly-schedule th {
     background-color: #E6F0EA;
     border-width: 0 0 1px 1px;
+}
+
+.Second-section {
+    width: 100%;
+}
+
+
+
+
+.Second-section-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Study {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #FBFDFB;
+    border: 3px solid #E6F0EA;
+
+}
+
+.attendance-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #FBFDFB;
+    border: 1px solid #E6F0EA;
+
+}
+
+.interest-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #FBFDFB;
+    border: 3px solid #E6F0EA;
+}
+
+.title-form-box {
+    color: #364c38;
+}
+
+.bold {
+    font-weight: bold;
 }
