@@ -7,13 +7,14 @@
 .container {
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
 
-form{
+form {
     border: 3px solid #E6F0EA;
     padding: 32px 16px;
     border-radius: 16px;
@@ -192,4 +193,48 @@ form{
     padding: 12px;
     border: 3px solid #E6F0EA;
     border-radius: 8px;
+}
+
+.cell-box {
+    width: 100%;
+    border: 3px solid #E6F0EA;
+    border-radius: 10px;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* box-shadow: 0.5px 0.5px 5px 0px #E1E2E1; */
+}
+
+.cell-box-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #E6F0EA;
+}
+
+.club {
+    color: #1F4A36;
+}
+
+.end-cell {
+    color: rgb(84, 83, 83);
+}
+
+.footer {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer p {
+    color: rgb(84, 83, 83);
 }
