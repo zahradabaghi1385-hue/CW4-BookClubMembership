@@ -17,6 +17,19 @@
     border-radius: 16px;
 }
 
+.form-line {
+  border: 1px solid #E6F0EA;
+}
+
+.form-details {
+  background-color: #E6F0EA;
+  border: 1px solid #1F4A36;
+  border-right: 4px solid #1F4A36;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+
 .form-fieldset {
   border: none;
   display: flex;
