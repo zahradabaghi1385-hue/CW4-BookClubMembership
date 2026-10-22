@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero,
+.page,
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 32px 16px;
+    border-radius: 16px;
+}
+
+.hero,
+.page {
+    width: 100%;
+}
+
+.hero {
+    align-items: flex-start;
+    padding-bottom: 0;
+}
+
+.page {
+    padding-top: 16px;
+}
+
+.card {
+    border: 1px solid #E6F0EA;
+    background-color: #FBFDFB;
+}
+
+.club-button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 999px;
+    background-color: #E6F0EA;
+    color: #1F4A36;
+}
+
+.section-title {
+    color: #1F4A36;
+}
+
+.intro-text {
+    color: #1F4A36;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+    color: #1F4A36;
+}
+
+#weekly-schedule {
+    width: 100%;
+    border-style: solid;
+    border-color: #b1b3b2;
+    border-width: 1px 1px 1px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #1F4A36;
+}
+
+#weekly-schedule th,
+#weekly-schedule td {
+    padding: 15px;
+    text-align: right;
+    border:  1px solid #b1b3b2;
+    border-color: #b1b3b2;
+  
+}
+
+#weekly-schedule th {
+    background-color: #E6F0EA;
+    border-width: 0 0 1px 1px;
+}
