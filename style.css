@@ -13,6 +13,12 @@
     gap: 16px;
 }
 
+form{
+    border: 3px solid #E6F0EA;
+    padding: 32px 16px;
+    border-radius: 16px;
+}
+
 .card hr {
     border: none;
     height: 2px;
@@ -140,4 +146,50 @@
 
 .bold {
     font-weight: bold;
+}
+
+
+.form-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 32px 16px;
+    gap: 16px;
+    border: 1px solid #FBFDFB;
+    border-radius: 16px;
+
+}
+
+.form-line {
+    border: 1px solid #E6F0EA;
+}
+
+.form-details {
+    color: #1F4A36;
+    background-color: #E6F0EA;
+    border: 1px solid #bcc6c0;
+    border-right: 4px solid #1F4A36;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+
+.form-fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-requirement {
+    font-weight: normal;
+}
+
+.form-input {
+    padding: 12px;
+    border: 3px solid #E6F0EA;
+    border-radius: 8px;
 }
