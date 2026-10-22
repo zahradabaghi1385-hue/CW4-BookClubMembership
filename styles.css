@@ -1,0 +1,43 @@
+/* ===================== RESET ===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 32px 16px;
+    gap: 16px;
+    border: 1px solid #FBFDFB;
+    border-radius: 16px;
+}
+
+.form-fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-requirement {
+  font-weight: normal;
+}
+
+.form-input {
+  display: inline-block;
+  width: 400px;
+
+  padding: 12px;
+  border: 3px solid #E6F0EA;
+  border-radius: 8px;
+}
+
