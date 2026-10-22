@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Club Membership</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section class="Second-section">
+        <form class="Second-section-form">
+            <label for="Study"  class="bold">سطح مطالعه <span class="title-form-box">(اجباری)</span></label>
+
+            <select id="Study" name="Surface">
+                <option class="bold" value="">
+                   <strong>انتخاب کنید</strong></option>
+                <option class="bold" value="beginne">مبتدی</option>
+                <option class="bold" value="regular">متوسط</option>
+                <option  class="bold"value="advanced">حرفه ای</option>
+            </select>
+
+            <fieldset class="attendance-box">
+                <legend class="bold">نوع حضور <span class="title-form-box">(اجباری: فقط یک مورد)</span></legend>
+
+                <label class="attendance-option">
+                    <input class="bold" type="radio" name="attendance" value="online">
+                   <strong>آنلاین</strong>
+                </label>
+
+                <label class="attendance-option">
+                    <input class="bold" type="radio" name="attendance" value="in-person">
+                   <strong>حضوری</strong>
+                </label>
+            </fieldset>
+
+             <fieldset class="interest-box">
+        <legend class="bold">علاقه‌ها <span class="title-form-box">(اختیاری: صفر تا سه مورد)</span></legend>
+
+        <label class="interest-option">
+            <input class="bold" type="checkbox" name="interests" value="story">
+                   <strong>داستان</strong>
+        </label>
+
+        <label class="interest-option">
+            <input type="checkbox" name="interests" value="history">
+                   <strong>تاریخ</strong>
+        </label>
+
+        <label class="interest-option">
+            <input class="bold" type="checkbox" name="interests" value="technology">
+                   <strong>فناوری</strong>
+        </label>
+    </fieldset>
+
+    </section>
 </body>
+
 </html>
