@@ -103,8 +103,6 @@ form {
 }
 
 
-
-
 .Second-section-form {
     display: flex;
     flex-direction: column;
@@ -225,6 +223,63 @@ hr {
 
 .end-cell {
     color: rgb(84, 83, 83);
+}
+
+.green-font {
+    color: #4B5B52;
+}
+
+.section-padding {
+    padding: 32px 16px 32px 16px;
+}
+
+.text-area-container {
+    border-radius: 8px;
+    background-color: #FBFDFB;
+    border: #C5D4CB 2px solid;
+}
+
+.card-container {
+    padding: 32px 16px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 2px solid #C5D4CB;
+    border-radius: 8px;
+}
+
+.checkbox-div {
+    display: flex;
+    gap: 8px;
+}
+
+.checkbox-font-weight {
+    font-weight: bold;
+}
+
+.custom-text {
+    border: 1px dashed #2F6B4F;
+    background-color: #E6F0EA;
+    padding: 16px 12px;
+    border-radius: 8px;
+}
+
+.button-cover {
+    width: fit-content;
+    padding: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2F6B4F;
+    border: 1px solid #1F4A36;
+    font-size: large;
+    border-radius: 8px;
+
+}
+
+.title-font-color-bot-border {
+    padding-bottom: 12px;
+    color: #1F4A36;
+    border-bottom: 2px solid #dae8e0;
 }
 
 .footer {
