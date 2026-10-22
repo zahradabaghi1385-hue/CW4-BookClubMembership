@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.cell-box{
+    border: 1px solid #1f4a3653;
+    border-radius: 10px;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: -2px 3px 9px 1px #E1E2E1;
+}
+.cell-box-section{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secound-khat{
+  color: #1F4A36;
+}
+.khat{
+  height: 2px;
+  border: none;
+  background-color: #E6F0EA;
+}
+.club{
+    color: #1F4A36;
+}
+.end-cell{
+    color: rgb(84, 83, 83);
+}
+.footer{display: flex;
+    flex-direction: column;
+    gap: 20px;}
