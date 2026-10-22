@@ -13,17 +13,17 @@
         <p class="form-details">این فرم آموزشی است: عضویت واقعی ثبت نمیشود. فقط اطلاعات ساختگی وارد کنید؛ داده آزمایش در نشانی مرورگر دیده می‌شود.</p>
         <fieldset class="form-fieldset">
             <label for="name" class="form-label">نام و نام خانوادگی<span class="form-requirement"> (اجباری)</span></label>
-            <input type="text" class="form-input">
+            <input type="text" class="form-input" id="name" required>
         </fieldset>
 
         <fieldset class="form-fieldset">
-            <label for="email" class="form-label">ایمیل<span class="form-requirement"> (اجباری)</span></label>
-            <input type="text" class="form-input">
+            <label for="email" class="form-label" required type="email" >ایمیل<span class="form-requirement"> (اجباری)</span></label>
+            <input type="text" class="form-input" id="email" required>
         </fieldset>
 
         <fieldset class="form-fieldset">
-            <label for="phone" class="form-label">تلفن<span class="form-requirement"> (اختیاری)</span></label>
-            <input type="text" class="form-input">
+            <label for="phone" class="form-label">تلفن<span class="form-requirement" type=""> (اختیاری)</span></label>
+            <input type="text" class="form-input" id="phone">
         </fieldset>
     </form>
 </body>

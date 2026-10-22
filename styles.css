@@ -15,6 +15,7 @@
     gap: 16px;
     border: 1px solid #FBFDFB;
     border-radius: 16px;
+
 }
 
 .form-line {
@@ -46,9 +47,6 @@
 }
 
 .form-input {
-  display: inline-block;
-  width: 400px;
-
   padding: 12px;
   border: 3px solid #E6F0EA;
   border-radius: 8px;
